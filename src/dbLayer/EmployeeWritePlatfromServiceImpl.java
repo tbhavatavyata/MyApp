@@ -21,12 +21,14 @@ public class EmployeeWritePlatfromServiceImpl {
 		emp.setAddressId(2345);
 		emp.setAge(31);
 		emp.setName("suneeta");
-		emp.setEmployeeCode("WER2313");
+		emp.setEmployeeCode("WER2I313");
 		
 		session.save(emp);
 		
 		trx.commit();
 		session.close();
+		
+		
 		
 	} 
 
